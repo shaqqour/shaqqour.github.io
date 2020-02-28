@@ -7,7 +7,7 @@ permalink:  communitree
 
 https://github.com/shaqqour/communitree
 
-Communitree:
+# Communitree:
 This rails project was really good practice to put in test all the skills I have been learning so far. It was hard trying to remember all the stuff I have learned. But google helped a lot lol.
 
 My wife had this amazing idea about trees how they help each other by sharing their resources. She wants human to have the same idology. So why not build an app where people within the same community can help each other.
