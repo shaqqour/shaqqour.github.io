@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Scopes vs Class Methods"
-date:       2020-03-05 19:10:01 +0000
+date:       2020-03-05 14:10:02 -0500
 permalink:  scopes_vs_class_methods
 ---
 
@@ -24,8 +24,7 @@ end
 Regular class method
 ```
 def self.search(title)
-       posts = Post.all
-			 posts.select { |post| post.title == title }
+       Post.all.select { |post| post.title == title }
 end
 ```
 
