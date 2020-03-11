@@ -16,10 +16,18 @@ Example:
 
 Scope
 ```
-def self.search(title)
-        where(title: title)
-end
+class Post
+        scope :search, ->(title) {where (title: title)}
+
+#or
+#def self.search(title)
+ #       where(title: title)
+#end
 ```
+
+class Book
+  scope :with_long_title, ->(length) { where("LENGTH(title) > ?", length) }
+end
 
 Regular class method
 ```
