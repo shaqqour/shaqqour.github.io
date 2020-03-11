@@ -14,20 +14,18 @@ A regular class method uses ruby to search the database for a specific record or
 
 Example:
 
-Scope
+Scope:
 ```
 class Post
         scope :search, ->(title) {where (title: title)}
 
-#or
-#def self.search(title)
- #       where(title: title)
-#end
+        #or
+        #def self.search(title)
+        #       where(title: title)
+        #end
+end
 ```
 
-class Book
-  scope :with_long_title, ->(length) { where("LENGTH(title) > ?", length) }
-end
 
 Regular class method
 ```
