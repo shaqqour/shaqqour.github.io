@@ -8,7 +8,7 @@ permalink:  how_to_build_a_single-page-application_spa
 https://github.com/shaqqour/list
 
 To-Do, Doing, Done List:
-Are you wondering how to build a single page application(SPA)? I was too when I first started building my "To-Do, Doing, Done List" App. Below is a screenshot of my application.
+Are you wondering how to build a single page application(SPA)? I was too when I first started building my "To-Do, Doing, Done List" App.
 
 You might be wondering, why did I build a to do list when other applications like Trello`https://trello.com/` exist. Well, Trello is highly customizable with many boards, lists, etc. that can be overwhelming for some users. I wanted to create something simple on one page, that all users would be comfortable using. 
 
