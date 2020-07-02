@@ -5,7 +5,7 @@ date:       2020-04-20 16:37:23 -0400
 permalink:  how_to_build_a_single-page-application_spa
 ---
 
-[https://github.com/shaqqour/list](http://)
+[https://github.com/shaqqour/list](https://github.com/shaqqour/list)
 
 To-Do, Doing, Done List:
 Are you wondering how to build a single page application(SPA)? I was too when I first started building my "To-Do, Doing, Done List" App.
