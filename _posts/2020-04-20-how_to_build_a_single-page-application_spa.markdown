@@ -10,7 +10,7 @@ permalink:  how_to_build_a_single-page-application_spa
 To-Do, Doing, Done List:
 Are you wondering how to build a single page application(SPA)? I was too when I first started building my "To-Do, Doing, Done List" App.
 
-You might be wondering, why did I build a to do list when other applications like Trello [https://trello.com/ ](http://)exist. Well, Trello is highly customizable with many boards, lists, etc. that can be overwhelming for some users. I wanted to create something simple on one page, that all users would be comfortable using. 
+You might be wondering, why did I build a to do list when other applications like [Trello](https://trello.com/ ) exist. Well, Trello is highly customizable with many boards, lists, etc. that can be overwhelming for some users. I wanted to create something simple on one page, that all users would be comfortable using. 
 
 I chose to have every task/item migrate through three stages: to-do, doing, and done. This way users can monitor the progress of each task easily, and see everything from a higher-level perspective. 
 
@@ -21,7 +21,7 @@ For the SPA, you need a backend and a frontend platform. I used Ruby on Rails fo
 ## Rails as backend:
 In this application rails is responsable of rendering APIs for the front end. My recomendation here is to use rails --api flag when building your backend. That would build a rails application that doesn't have any views and instead you will render api's  in your controller that would be used as a data provider for the frontend.
 
-There are few ways to render an api from your controller. One of the ways is to use the gem 'fast_jsonapi' that would create a Serializer class for each model you have in your application. You can read more about it here [https://learn.co/tracks/online-software-engineering-structured/front-end-web-programming/rails-as-an-api/using-the-fast-json-api-gem](http://)
+There are few ways to render an api from your controller. One of the ways is to use the gem 'fast_jsonapi' that would create a Serializer class for each model you have in your application. You can read more about it [here](https://learn.co/tracks/online-software-engineering-structured/front-end-web-programming/rails-as-an-api/using-the-fast-json-api-gem)
 
 ## Javascript as frontend:
 This is the fun part of the application. Javascript has a "fetch" function that can perform http-requests from your backend which render json-api. When receiving this json-object which has the data, in my case would be List Objects that each one has many items. Iterating through that object allowed me to create lists object and add them to the DOM, Document Object Model. Each list is like a mini application on the DOM.
