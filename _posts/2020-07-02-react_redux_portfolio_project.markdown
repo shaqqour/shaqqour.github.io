@@ -8,7 +8,7 @@ permalink:  react_redux_portfolio_project
 [https://github.com/shaqqour/list](https://github.com/shaqqour/list)
 
 ## To-Do, Doing, Done Lists-Part 2:
-"To-Do, Doing, Done" is a continuiation of a project that was built on Ruby-Rails and plain JavaScript without the use of React and Redux. It is basically a rebuild of the entire frontend application.
+"To-Do, Doing, Done" is a continuation of a project that was built on Ruby-Rails and plain JavaScript without the use of React and Redux. It is basically a rebuild of the entire frontend application.
 
 While many to-do list applications such as [Trello](https://trello.com/ ) exist, the simplicity of my application is what makes it unique. Some users might be overwelmed when they interact with applications that are highly customized and have many boards. So I built a very user friendly to-do list application which all users could be comfortable using.
 
